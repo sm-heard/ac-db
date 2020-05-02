@@ -1,6 +1,7 @@
 import java.io.IOException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 
 public class scrapeData {
 
@@ -10,6 +11,9 @@ public class scrapeData {
 
   public void grabData() throws IOException {
     Document document = Jsoup.connect("https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)").get();
+    Elements elements = document.getElementsByTag("href");
+
+
     //grab names and species
     //personality,  bday, and catchphrase
   }
