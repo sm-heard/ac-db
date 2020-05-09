@@ -13,6 +13,8 @@ public class scrapeData {
     Document document = Jsoup.connect("https://animalcrossing.fandom.com/wiki/Villager_list_(New_Horizons)").get();
     Document document1 = Jsoup.connect("https://nookipedia.com/wiki/List_of_villagers").get();
 
+    //get href="/wiki/.+"
+
 
     Elements elements = document.getElementsByTag("href");
 
