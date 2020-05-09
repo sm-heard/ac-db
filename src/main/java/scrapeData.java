@@ -26,3 +26,5 @@ public class scrapeData {
 
 
 }
+
+//use react native
