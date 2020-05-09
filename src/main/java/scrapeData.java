@@ -22,6 +22,7 @@ public class scrapeData {
 
     //grab names and species
     //personality,  bday, and catchphrase
+    //items
   }
 
 
