@@ -18,7 +18,7 @@ public class scrapeData {
 
     Elements elements = document.getElementsByTag("href");
 
-
+    System.out.println(elements.text());
 
     //grab names and species
     //personality,  bday, and catchphrase
